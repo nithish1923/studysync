@@ -1,6 +1,6 @@
 
 import streamlit as st
-from langchain.chat_models import ChatOpenAI 
+from langchain_community.chat_models import ChatOpenAI
 from langchain.prompts import PromptTemplate
 import json
 from utils.progress_tracker import save_progress, get_user_progress
